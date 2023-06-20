@@ -14,7 +14,7 @@ Fig. 1: Arivis/Pipelines/AxonStringOnly
 
 To Identify the Axon within the cell we trained A "Machine Learning Segmenter" (Arivis/Training/rbcn ri2_2022-07-25_11.18.58_F11 Axon training.training).
 We then filtered out small roundish identified objects using the Feature filter operation.
-At this point we stored the resulting objects as Axon Strings and enabled the user to manualy rule out some of them by visualizing them.
+At this point we stored the resulting objects as Axon Strings and enabled the user to manually rule out some of them by visualizing them.
 
 ## Identifying Agt8 and calculating Distances
 Fig. 2: Arivis/Pipelines/AxonStringOnly FullArivisDistance - import Axon object - volume python script - ri1 F00.zpipeline
@@ -22,5 +22,10 @@ Fig. 2: Arivis/Pipelines/AxonStringOnly FullArivisDistance - import Axon object 
 ![fig2](https://github.com/WIS-MICC-CellObservatory/Agt8-and-Axon-analysis/assets/64706090/5cb83392-9453-4fc7-a76b-cd6fa61f0254)
 
 To Identify the Agt8 within the cell we trained A "Machine Learning Segmenter" (Arivis/Training/rbcn ri2_2022-07-25_11.18.58_F11 Agt8 training.training).
-We then filtered out small roundish identified objects using the Feature filter operation.
-At this point we stored the resulting objects as Axon Strings and enabled the user to manualy rule out some of them by visualizing them.
+For performance , we then filtered out small identified objects that account for 40% of the total volume leaving the bigger objects that account for the remaining 60% of the total volume. To do that we used a python script operation (Arivis/Python Script/FilterLowPercent.py)
+
+Now we calculated the distance between each of the identified Agt8 objects to the closest Axon segment using the Distance operation.
+The pipeline continued to calculate the volume of the axons segments as is and also the volume of the Axon segments once dilated by 10,20,...100 pixels. We used these volumes to calculate the relative volume Agt8 objects occupied in growing distance from the Axons (See next Section)
+
+## Calculating relative Agt8 Volumes
+
