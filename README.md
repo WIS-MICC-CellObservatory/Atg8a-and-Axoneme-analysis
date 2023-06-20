@@ -8,3 +8,6 @@ We also used a random forest training algorithm to identify the Agt8 in the cell
 Once the two types of objects were identified, we measured the combined volume of Agt8 objects in 10 envelopes of 1 micron thick around the Axon (where the 1st envelope captured the Agt8 objects residing no further than 1 micron from the Axon, the 2nd envelope captured the Agt8 objects residing between 1 and 2 microns and so on). We divided these combined volumes by the corresponding envelope volume to get the normalized Agt8 volume  
 
 ## Identifying Axons
+
+## Identifying Agt8 and calculating Distances
+![fig2](https://github.com/WIS-MICC-CellObservatory/Agt8-and-Axon-analysis/assets/64706090/5cb83392-9453-4fc7-a76b-cd6fa61f0254)
