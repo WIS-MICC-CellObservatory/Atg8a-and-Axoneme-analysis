@@ -28,4 +28,14 @@ Now we calculated the distance between each of the identified Agt8 objects to th
 The pipeline continued to calculate the volume of the axons segments as is and also the volume of the Axon segments once dilated by 10,20,...100 pixels. We used these volumes to calculate the relative volume Agt8 objects occupied in growing distance from the Axons (See next Section)
 
 ## Calculating relative Agt8 Volumes
+We used an Excel spreadsheet template (Excel/distance analysis.xlsx) to calculate the amount of Agt8 total volumes at growing distances from the Axon:
+1. We replace the columns A-D in the Excel template with the measurements taken for each agt8 object (id, name, volume and distance from axon).
+2. We replace column J (inflated string volume) with the measurements taken for each of the dilated axon objects (in case there were more than one Axon segment, we summed all segments of the same dilation)
+3. The template automatically calculates:
+>1. Column F: The total volume of Agt8 objects at 10, 20... 100 pixels distances from the Axon (Column E translates pixels to microns)
+>2. Column G: The number of Agt8 objects at 10, 20... 100 pixels distances from the Axon
+>3. Column H: The average size of objects at 10, 20... 100 pixels distances from the Axon
+>4. Column I: The ratio between the volume of the dilated Axon volume and the related Agt8 objects
+
+
 
