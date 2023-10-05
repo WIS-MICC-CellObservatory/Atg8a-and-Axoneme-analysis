@@ -11,6 +11,8 @@ Once the two types of objects were identified, we measured the combined volume o
 <p align="center">
 Fig. 1: Arivis/Pipelines/AxonStringOnly
 </p>
+![fig1](https://github.com/WIS-MICC-CellObservatory/Atg8a-and-Axoneme-analysis/assets/64706090/809f4ad2-ee3f-4b3c-bb38-a4f764dce4cc)
+
 ![fig1](https://github.com/WIS-MICC-CellObservatory/Atg8a-and-Axoneme-analysis/assets/64706090/aaf30250-565d-4b48-bb4e-22dce78725d4)
 
 To Identify the Axoneme within the cell we trained A "Machine Learning Segmenter" (Arivis/Training/rbcn ri2_2022-07-25_11.18.58_F11 Axoneme training.training).
@@ -21,6 +23,9 @@ At this point we stored the resulting objects as Axoneme Strings and enabled the
 <p align="center">
 Fig. 2: Arivis/Pipelines/AxonStringOnly FullArivisDistance - import Axoneme object - volume python script - ri1 F00.zpipeline
 </p>
+![fig2](https://github.com/WIS-MICC-CellObservatory/Atg8a-and-Axoneme-analysis/assets/64706090/e20a7e45-fa74-4bb7-b459-bfe5dcdea0a3)
+
+
 ![fig2](https://github.com/WIS-MICC-CellObservatory/Atg8a-and-Axoneme-analysis/assets/64706090/1a4750cc-e1df-4992-927b-e467f66734ff)
 
 To Identify the Atg8a within the cell we trained A "Machine Learning Segmenter" (Arivis/Training/rbcn ri2_2022-07-25_11.18.58_F11 Atg8a training.training).
