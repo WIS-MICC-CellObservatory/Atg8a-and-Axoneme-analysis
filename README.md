@@ -10,11 +10,11 @@ Once the two types of objects were identified, we measured the combined volume o
 ## Identifying Axonemes
 <p align="center">
 
+</p>
 ![fig1](https://github.com/WIS-MICC-CellObservatory/Atg8a-and-Axoneme-analysis/assets/64706090/d7ac4e07-017a-4095-a921-8f1b8160883a)
-
+<p align="center">
 Fig. 1: Arivis/Pipelines/AxonStringOnly
 </p>
-
 To Identify the Axoneme within the cell we trained A "Machine Learning Segmenter" (Arivis/Training/rbcn ri2_2022-07-25_11.18.58_F11 Axoneme training.training).
 We then filtered out small roundish identified objects using the Feature filter operation.
 At this point we stored the resulting objects as Axoneme Strings and enabled the user to manually rule out some of them by visualizing them.
