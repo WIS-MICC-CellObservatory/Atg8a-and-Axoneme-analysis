@@ -10,6 +10,7 @@ Once the two types of objects were identified, we measured the combined volume o
 ## Identifying Axonemes
 <p align="center">
 a
+  
 ![fig1](https://github.com/WIS-MICC-CellObservatory/Atg8a-and-Axoneme-analysis/assets/64706090/d7ac4e07-017a-4095-a921-8f1b8160883a)
 <p align="center">
 Fig. 1: Arivis/Pipelines/AxonStringOnly
