@@ -9,10 +9,8 @@ Once the two types of objects were identified, we measured the combined volume o
 
 ## Identifying Axonemes
 <p align="center">
-a
-  
-![fig1](https://github.com/WIS-MICC-CellObservatory/Atg8a-and-Axoneme-analysis/assets/64706090/d7ac4e07-017a-4095-a921-8f1b8160883a)
-<p align="center">
+![fig1](https://github.com/WIS-MICC-CellObservatory/Atg8a-and-Axoneme-analysis/assets/64706090/b76066ce-9ee8-403e-a682-fe6bdda37015)
+
 Fig. 1: Arivis/Pipelines/AxonStringOnly
 </p>
 To Identify the Axoneme within the cell we trained A "Machine Learning Segmenter" (Arivis/Training/rbcn ri2_2022-07-25_11.18.58_F11 Axoneme training.training).
