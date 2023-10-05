@@ -8,6 +8,7 @@ We also used a random forest training algorithm to identify the Atg8a in the cel
 Once the two types of objects were identified, we measured the combined volume of Atg8a objects in 10 envelopes of 1 micron thick around the Axoneme (where the 1st envelope captured the Atg8a objects residing no further than 1 micron from the Axoneme, the 2nd envelope captured the Atg8a objects residing between 1 and 2 microns and so on). We divided these combined volumes by the corresponding envelope volume to get the normalized Atg8a volume  
 
 ## Identifying Axonemes
+
 <p align="center">
 ![fig1](https://github.com/WIS-MICC-CellObservatory/Atg8a-and-Axoneme-analysis/assets/64706090/d7ac4e07-017a-4095-a921-8f1b8160883a)
   
@@ -19,6 +20,7 @@ We then filtered out small roundish identified objects using the Feature filter 
 At this point we stored the resulting objects as Axoneme Strings and enabled the user to manually rule out some of them by visualizing them.
 
 ## Identifying Atg8a and calculating Distances
+
 <p align="center">
 ![fig2](https://github.com/WIS-MICC-CellObservatory/Atg8a-and-Axoneme-analysis/assets/64706090/d2847a84-3e4c-44c7-a5f8-93749bb79094)
 
