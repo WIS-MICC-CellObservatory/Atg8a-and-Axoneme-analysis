@@ -9,6 +9,7 @@ Once the two types of objects were identified, we measured the combined volume o
 
 ## Identifying Axonemes
 ![fig1](https://github.com/WIS-MICC-CellObservatory/Atg8a-and-Axoneme-analysis/assets/64706090/b76066ce-9ee8-403e-a682-fe6bdda37015)
+
 Fig. 1: Arivis/Pipelines/AxonStringOnly
 
 To Identify the Axoneme within the cell we trained A "Machine Learning Segmenter" (Arivis/Training/rbcn ri2_2022-07-25_11.18.58_F11 Axoneme training.training).
@@ -16,12 +17,9 @@ We then filtered out small roundish identified objects using the Feature filter 
 At this point we stored the resulting objects as Axoneme Strings and enabled the user to manually rule out some of them by visualizing them.
 
 ## Identifying Atg8a and calculating Distances
-
-<p align="center">
 ![fig2](https://github.com/WIS-MICC-CellObservatory/Atg8a-and-Axoneme-analysis/assets/64706090/d2847a84-3e4c-44c7-a5f8-93749bb79094)
 
 Fig. 2: Arivis/Pipelines/AxonStringOnly FullArivisDistance - import Axoneme object - volume python script - ri1 F00.zpipeline
-</p>
 
 To Identify the Atg8a within the cell we trained A "Machine Learning Segmenter" (Arivis/Training/rbcn ri2_2022-07-25_11.18.58_F11 Atg8a training.training).
 For performance , we then filtered out small identified objects that account for 40% of the total volume leaving the bigger objects that account for the remaining 60% of the total volume. To do that we used a python script operation (Arivis/Python Script/FilterLowPercent.py)
