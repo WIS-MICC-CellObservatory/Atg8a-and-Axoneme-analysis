@@ -8,11 +8,9 @@ We also used a random forest training algorithm to identify the Atg8a in the cel
 Once the two types of objects were identified, we measured the combined volume of Atg8a objects in 10 envelopes of 1 micron thick around the Axoneme (where the 1st envelope captured the Atg8a objects residing no further than 1 micron from the Axoneme, the 2nd envelope captured the Atg8a objects residing between 1 and 2 microns and so on). We divided these combined volumes by the corresponding envelope volume to get the normalized Atg8a volume  
 
 ## Identifying Axonemes
-<p align="center">
 ![fig1](https://github.com/WIS-MICC-CellObservatory/Atg8a-and-Axoneme-analysis/assets/64706090/b76066ce-9ee8-403e-a682-fe6bdda37015)
-
 Fig. 1: Arivis/Pipelines/AxonStringOnly
-</p>
+
 To Identify the Axoneme within the cell we trained A "Machine Learning Segmenter" (Arivis/Training/rbcn ri2_2022-07-25_11.18.58_F11 Axoneme training.training).
 We then filtered out small roundish identified objects using the Feature filter operation.
 At this point we stored the resulting objects as Axoneme Strings and enabled the user to manually rule out some of them by visualizing them.
