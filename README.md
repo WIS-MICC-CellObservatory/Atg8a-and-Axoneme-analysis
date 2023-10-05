@@ -10,6 +10,7 @@ Once the two types of objects were identified, we measured the combined volume o
 ## Identifying Axonemes
 <p align="center">
 ![fig1](https://github.com/WIS-MICC-CellObservatory/Atg8a-and-Axoneme-analysis/assets/64706090/809f4ad2-ee3f-4b3c-bb38-a4f764dce4cc)
+  
 Fig. 1: Arivis/Pipelines/AxonStringOnly
 </p>
 
@@ -20,6 +21,7 @@ At this point we stored the resulting objects as Axoneme Strings and enabled the
 ## Identifying Atg8a and calculating Distances
 <p align="center">
 ![fig2](https://github.com/WIS-MICC-CellObservatory/Atg8a-and-Axoneme-analysis/assets/64706090/e20a7e45-fa74-4bb7-b459-bfe5dcdea0a3)
+  
 Fig. 2: Arivis/Pipelines/AxonStringOnly FullArivisDistance - import Axoneme object - volume python script - ri1 F00.zpipeline
 </p>
 
