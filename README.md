@@ -5,7 +5,9 @@ We first identified Axoneme objects using a random forest training algorithm. Th
 
 We also used a random forest training algorithm to identify the Atg8a in the cell. To save computation time, we filtered out small Atg8a objects as to be left out with the ones that account for 60% of the total volume (we verified on few files that the smaller objects did not have a different distribution in the cell). 
 
-Once the two types of objects were identified, we measured the combined volume of Atg8a objects in 10 envelopes of 1 micron thick around the Axoneme (where the 1st envelope captured the Atg8a objects residing no further than 1 micron from the Axoneme, the 2nd envelope captured the Atg8a objects residing between 1 and 2 microns and so on). We divided these combined volumes by the corresponding envelope volume to get the normalized Atg8a volume  
+Once the two types of objects were identified, we measured the combined volume of Atg8a objects in 10 envelopes of 1 micron thick around the Axoneme (where the 1st envelope captured the Atg8a objects residing no further than 1 micron from the Axoneme, the 2nd envelope captured the Atg8a objects residing between 1 and 2 microns and so on). We divided these combined volumes by the corresponding envelope volume to get the normalized Atg8a volume
+
+Using a third random forest training we identified the Axoneme membrane and extracted its volume
 
 ## Identifying Axonemes
 ![fig1](https://github.com/WIS-MICC-CellObservatory/Atg8a-and-Axoneme-analysis/assets/64706090/b76066ce-9ee8-403e-a682-fe6bdda37015)
@@ -37,5 +39,4 @@ We used an Excel spreadsheet template (Excel/distance analysis.xlsx) to calculat
 >3. Column H: The average size of objects at 10, 20... 100 pixels distances from the >1. Column F: The total volume of Atg8a objects at 10, 20... 100 pixels distances from the Axoneme (Column E translates pixels to microns)
 >4. Column I: The ratio between the volume of the dilated >1. Column F: The total volume of Atg8a objects at 10, 20... 100 pixels distances from the Axoneme (Column E translates pixels to microns) volume and the related Atg8a objects
 
-
-
+## Identifying Axoneme membrane 
